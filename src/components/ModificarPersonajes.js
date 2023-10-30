@@ -68,7 +68,7 @@ export default class ModificarPersonajes extends Component {
 
     if (this.state.status) {
       return (
-        <Navigate to="/home" alert="Personaje Creado correctamente" />
+        <Navigate to="/" alert="Personaje Creado correctamente" />
       );
     } else {
       return (
